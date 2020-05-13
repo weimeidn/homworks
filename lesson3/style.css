@@ -1,21 +1,68 @@
-h1 {
- color: brown;
-}
-
 body{
-    background-image: url(image/1.jpg);
-    background-size: 100%;
+  background-color: #d1eff5 
+ 
 }
 
-.messange{
-    color: rgb(39, 133, 240);
-    background-color: rgb(255, 238, 183);
-    border: 3px solid #323232;
-    font-size: 30px;
-    margin: 20px;
-    padding: 5px;
-    border-radius: 20px;
-    opacity: 0.7;
-    text-align: center;
-    
+
+.block{
+  display: flex;
+border: 1px solid rgb(255, 255, 255); 
+justify-content: space-between; 
+width: 100%;
+margin: auto;
+
 }
+
+.element{
+background-color: rgb(202, 229, 238); 
+background-size: 100%;
+width: 25%;
+padding: 10px;
+}
+
+.nav_ul{
+  padding: 0;
+  
+}
+.nav_li{
+  border: 2px solid #d1eff5 ;
+  margin-bottom:10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+  background-color: rgb(243, 243, 243);
+  transition: all 0.3s ease;
+  }
+
+.nav_a{
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  
+}
+.nav_li:hover{
+  background-color: rgb(222, 229, 188);
+}
+.content{
+ flex: 1;
+ background-color: rgb(255, 255, 255);  
+ height: 800px;
+ padding: 10px;
+ box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+  }
+
+.block2{
+  display: flex;
+border: 1px solid rgb(255, 255, 255);
+justify-content: space-between; 
+width: 100%;
+margin: auto;
+}
+.element2{
+height: 50px;
+background-color: rgb(27, 12, 12); 
+width: 33%;
+padding: 10px;
+}
+
+
