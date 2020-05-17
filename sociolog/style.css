@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(230, 228, 215);
+    max-width: 1700px;
+    font-family: sans-serif;
+    
+}
+
+
+.wrepp{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(247, 246, 241);
+}
+
+.header_h1{
+    text-align: center;
+    margin-top: 10px;
+    padding: 40px;
+}
+
+.bigBlock{
+
+}
+
+.block{
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
+}
+
+.block_strong{
+    
+}
+
+.block_icon{
+    width: 300;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.block_text{
+    margin: 0 auto;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.block_img{
+    width: 300px;
+    padding: 30px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
+
+hr{
+    width: 90%;
+}
