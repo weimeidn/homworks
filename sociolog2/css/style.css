@@ -1,0 +1,161 @@
+.header {
+    margin-bottom: 20px;
+}
+
+.wrapp {
+    max-width: 1200px;
+    margin: auto;
+    
+    padding: 10px;
+ 
+
+}
+
+.header_icon {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nav {
+    margin: 0 auto;
+    background: #26537C;
+}
+
+.nav_ul {
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.267);
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1000px;
+    background: rgb(50, 95, 141);
+    flex-wrap: wrap;
+}
+
+.nav_li {
+
+    padding: 10px 10px;
+}
+
+.nav_li:hover {
+
+    background: rgb(167, 200, 231);
+
+}
+
+.nav_a {
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.nav_a:hover {
+    color: #000;
+}
+
+
+
+
+/* main */
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.main_big_block{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 0 auto;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.055);
+   
+}
+
+
+.main_block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    max-width: 200px;
+    margin: 0 auto;
+    
+   
+    
+}
+.main_block:hover {
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.267);
+   
+    
+}
+
+.main_icon {
+    padding-bottom: 10px;
+    min-height: 245px;
+    max-width: 197px;
+    margin: 0 auto;
+}
+.main_img {
+    min-height: 270px;
+}
+
+.main_block_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    margin: 0 auto;
+   
+  
+    
+}
+
+.main_strong {
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+   
+   
+}
+
+.main_span {
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+}
+
+.main_a {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* main */
+
+.avtor_block_icon{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 200px;
+}
+
+.avtor_img{
+padding-left: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.cart{
+    padding: 10px;
+    width: 60%;
+}
+
+.opros{
+    padding: 10px;
+    width: 30%;
+}
